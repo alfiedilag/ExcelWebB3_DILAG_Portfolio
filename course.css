@@ -1,0 +1,110 @@
+.brand-logo{
+    padding-left: 50px !important;
+
+}
+
+.loader{
+    position:absolute;
+    top: 43% !important;
+    left: 47% !important;
+
+}
+
+.circle-clipper .circle {
+    width: 200%;
+    height: 100%;
+    border-width: 10px;
+    border-style: dotted;
+    border-color:whitesmoke !important;
+    border-bottom-color: transparent !important;
+    border-radius: 100%;
+
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 13px;
+    color: #ffffff;
+    display:block;
+    line-height: 30px;
+    padding: 14px 10px;
+    background-color: #054E0D;
+    text-align: center;
+}
+
+.dropdown-trigger{
+    width: 100px;
+    text-align: center;
+}
+
+
+#loginmodal {
+    align-items: center; 
+    background-color:rgb(255, 255, 255); 
+    height:auto;
+    justify-content: center; 
+    width: 25%;
+    line-height:0.20em; 
+    border-radius: 10%;
+    padding-bottom: 20px;
+    
+}
+
+
+
+.page-footer{
+    background-color: #054E0D;
+    height: auto;
+    display:-moz-stack;
+    font-size: 15px;
+}
+
+.footer-copyright{
+    background-color:rgba(255, 255, 255, 0.151)!important;
+    font-size: 12px;
+}
+
+
+.menu-wrapper {
+    position:fixed;
+    top: 13%;
+    left: 70%;
+    height: auto;
+    width: 100%;
+    
+}
+.menu{
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.menu li {
+    display: inline-block;
+    margin: 2px;
+}
+.menu li a{
+    text-decoration:none;
+    color: blue;
+    padding: 6px 12px;
+    display: block;
+}
+
+
+#add1 {
+    align-items: center;
+    background-color:white;
+    height: 100%;
+    justify-content: center;
+    width:30%;
+    line-height:0.5cm;
+}
+
+
+.heart {
+    font-size: 20px;
+    color:red;
+}
+
+
+.parallax-container {
+    height: 500px;
+} 
+

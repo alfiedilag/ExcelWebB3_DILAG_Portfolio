@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome Site Icons for SocMed Icons-->
+    <script src="https://kit.fontawesome.com/7c04fe9cbf.js" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="imgs/logo3.JPG" type="image/png" >
+    <title>TeaAchnology</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav style="background-color: #054E0D;">
+        <div class="nav-wrapper">
+        <a href="#home" class="brand-logo"><img src="imgs/logo2.png" style="width: 150px;height:55.99px;"></a>
+        
+        <!-- Side Nav Trigger -->
+        <div class="right">
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li  class="active">
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#aboutus">About Us</a>
+            </li>
+            <!-- Course Dropdown -->
+            <li>
+                <a href="courses.html" class="dropdown-trigger" data-target="dropdown1">Courses</a>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Electronics</a></li>
+                        <li><a href="#!">Electrical</a></li>
+                        <li><a href="#!">Computer</a></li>
+                        <li><a href="#!">Programming</a></li>
+                    </li>
+                </ul>
+            </li>
+            <!-- End Course Dropdown -->
+            <li>
+                <a href="#footer">
+                <i class="material-icons left">email</i>
+                </a>
+            </li>
+
+            <li>
+                <!-- LogIn Modal Trigger -->
+                <a class="modal-trigger" href="#loginmodal">
+                    <i class="material-icons left">account_circle</i>
+                </a>
+
+                <!-- Modal Content -->
+                <div id="loginmodal" class="modal">
+                    <div class="modal-content">
+                        <h5 style="text-align-last: center;font-weight: bolder;color: black;">
+                            <i class="material-icons center-block medium">account_circle</i>
+                            Log In
+                        </h5>
+                            <form>
+                                <div class="input-field">
+                                    <input type="text" id="name">
+                                    <label for="name" style="font-weight:bold;font-size: 10px;">FULL NAME</label>
+                                </div>
+                                <br>
+                                <div class="input-field">
+                                    <input type="email" id="email" class="validate">
+                                    <label for="email" style="font-weight:bold;font-size: 10px;">EMAIL</label>
+                                    <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                                </div>
+                                <br>
+                                <div class="input-field">
+                                    <input type="password" id="password">
+                                    <label for="password" style="font-weight:bold;font-size: 10px;">PASSWORD</label>
+                                </div>
+                                <br>
+                                <div class="input-field">
+                                    <input type="password" id="password">
+                                    <label for="password" style="font-weight:bold;font-size: 10px;">CONFIRM PASSWORD</label>
+                                </div>
+                                <br>
+                                <div style="text-align: center;">
+                                    <a class="btn waves-effect waves-light  btn-small green">
+                                        LOG IN
+                                    </a>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav direction-right">
+        <li>
+            <div class="background">
+                <img src="imgs/bg2.jpg" style="width: 500px;height:200px;">
+            </div>
+        </li>
+        <li>
+            <a href="#home">
+                <i class="material-icons">home</i>
+                HOME
+            </a>
+        </li>
+        <li>
+            <a href="#aboutus">
+                <i class="material-icons">info</i>
+                ABOUT US
+            </a>
+        </li>
+        <li>
+            <a href="courses.html">
+                <i class="material-icons">book</i>
+                COURSES
+            </a>
+        </li>
+        <li>
+            <a href="#footer">
+                <i class="material-icons">email</i>
+                CONTACT
+            </a>
+        </li>
+        <li>
+            <a href="#loginmodal">
+                <i class="material-icons">login</i>
+                LOG IN
+            </a>
+        </li>
+    </ul>
+    <!-- End of Nav Bar -->
+
+    <!-- Video Banner -->
+    <section id="home">
+        <div class="col s12 m12">
+            <!-- <div class="parallax-container"> -->
+                <div class="video-container">
+                    <video class="responsive-video" controls autoplay loop muted>
+                        <source src="vid/robot2.mp4" type="video/mp4">
+                    </video>
+
+                <!-- Video Message Banner -->
+                <div id="videoMessage2">
+                    <p class="white-text" style="font-size: 2em;font-weight:normal; font-family:Century Gothic;">The Great Growling Engine of Change</p>
+                    <h1 class="lime-text accent-3" style="font-size: 8em;font-weight: bolder; font-family:'Segoe UI';">TECHNOLOGY</h1>
+                    <div class="main-button">
+                            <a href="#welcome" class="btn green darken-1 white-text waves-effect waves-light btn-small">
+                                Learn More
+                            </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Video Banner -->
+    
+    <!-- Start Welcome -->
+    <section>
+    <div id="welcome" class="container">
+        <h2 style="font-family:Century Gothic; text-align-last: center; font-weight: bolder;">Welcome to <b class="green-text darken 4" >TeAchnology</b></h2>
+        <h5 style="font-family:Century Gothic; text-align-last: center; font-weight: lighter;font-style: oblique;" >
+            We teach, model, and encourage a love of learning, collaboration, and compassion for others.
+        </h5>
+    </div>
+    </section>
+<!-- End Welcome -->
+    <br>
+
+<!-- Start Why Us -->
+    <section>
+        <div class="row" style="padding-left: 2%; padding-right: 2%;">
+            <div class="col s12 m6 l3">
+                <div class="card-panel hoverable green accent-1">
+                    <h3 class="center-align">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </h3>
+                    <h5 style="font-weight: bold;text-align: center;">Expert Instructors</h5>
+                    <p style="font-weight: lighter;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolores accusamus eaque quas fugiat nihil.</p>
+                    <div class="card-action" style="text-align: right;">
+                        <a href="#" class="black-text">MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card-panel hoverable yellow accent-1">
+                    <h3 class="center-align">
+                        <i class="fas fa-tools"></i></i>
+                    </h3>
+                    <h5 style="font-weight: bold;text-align: center;">Best Technology Courses</h5>
+                    <p style="font-weight: lighter;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rem doloribus accusamus? Ut, et fugiat.</p>
+                    <div class="card-action" style="text-align: right;">
+                        <a href="#" class="black-text">MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card-panel hoverable green accent-1">
+                    <h3 class="center-align">
+                        <i class="fas fa-book"></i>
+                    </h3>
+                    <h5 style="font-weight: bold;text-align: center;">Wide Resources</h5>
+                    <p style="font-weight: lighter;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolores accusamus eaque quas fugiat nihil.</p>
+                    <div class="card-action" style="text-align: right;">
+                        <a href="#" class="black-text">MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card-panel hoverable yellow accent-1">
+                    <h3 class="center-align">
+                        <i class="fas fa-award"></i>
+                    </h3>
+                    <h5 style="font-weight: bold;text-align: center;">Recognize Training Center</h5>
+                    <p style="font-weight: lighter;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rem doloribus accusamus? Ut, et fugiat.</p>
+                        <div class="card-action" style="text-align: right;">
+                        <a href="#" class="black-text">MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End Why Us -->
+
+
+    <div id="homeparallax" class="parallax-container">
+    <div class="parallax">
+        <img src="imgs/prog2.png">
+    </div>
+    </div>
+    <br>
+
+<!-- Start of About Us -->
+    <section id="aboutus" style="background-image: url(imgs/bg8.png); background-size:auto; padding-top:2%; padding-bottom: 0.5% ;">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <div class="card-panel hoverable">
+                    <h3 style="font-weight: bold;text-align: center; font-family: Century Gothic;">ABOUT US</h3>
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header">
+                                <h6 style="font-weight: bold; font-size: 15px;">
+                                    <i class="material-icons large">visibility</i>VISSION
+                                </h6> 
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda, commodi laudantium voluptatibus repellat numquam placeat harum quae molestiae ad soluta sit odit, neque hic ea dolor tempore rerum! Natus aliquam iure saepe ullam tempore ut, illo soluta quod ipsa itaque, asperiores eum eveniet rem placeat, sint enim consequuntur laborum.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <h6 style="font-weight: bold; font-size: 15px;">
+                                    <i class="material-icons">school</i>MISSION
+                                </h6>
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ea reiciendis tempora ratione commodi mollitia, facilis necessitatibus at deleniti, possimus molestiae odio inventore? Repellat accusamus praesentium, excepturi veniam tempora corporis, odit fugiat expedita minus assumenda quidem quas inventore minima possimus autem ea, molestiae perspiciatis neque porro quos impedit. Earum, sit!.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <h6 style="font-weight: bold; font-size: 15px;">
+                                    <i class="material-icons">gps_fixed</i>GOAL
+                                </h6>
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit reiciendis labore facilis deleniti suscipit distinctio possimus error repudiandae. Quod deserunt odit facilis veritatis alias, quaerat optio! Excepturi, sapiente veniam. Vel, officia est exercitationem deserunt nam unde ratione quasi, voluptate et nihil labore id totam ullam vitae laboriosam, neque dignissimos dolores!</span>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <div class="collapsible-header">
+                                <h6 style="font-weight: bold; font-size: 15px;">
+                                    <i class="material-icons">rowing</i>OBJECTIVES
+                                </h6>
+                            </div> -->
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit reiciendis labore facilis deleniti suscipit distinctio possimus error repudiandae. Quod deserunt odit facilis veritatis alias, quaerat optio! Excepturi, sapiente veniam. Vel, officia est exercitationem deserunt nam unde ratione quasi, voluptate et nihil labore id totam ullam vitae laboriosam, neque dignissimos dolores!</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <div class="card-panel hoverable materialboxed" style="background-color: white">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Oa9aWdcCC4o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+<!-- End of About Us -->
+
+
+<!--  Start of Courses Title -->
+    <section>
+        <div class="container">
+            <h2 style="font-family:Century Gothic; text-align-last: center; font-weight: bolder;">Courses</h2>
+        </div>
+    </section>
+<!-- End of Courses Title-->
+
+
+<!-- Start of Courses Offer -->
+    <section>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="imgs/elx2.png" style="filter: brightness(70%)" class="materialboxed" >
+                        <span class="card-title yellow-text accent-2 " style="font-weight:bold; text-align: left;">Domestic Repair</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light green btn modal-trigger" data-target="add1" href="#add1">
+                            <i class="material-icons">add</i>
+                        </a>
+
+                        <!-- Modal Enroll -->
+                        <div id="add1" class="modal">
+                            <div class="modal-content">
+                                <h5 style="text-align-last: center;font-weight: bolder;">
+                                    <i class="material-icons center-block medium">account_circle</i>
+                                    Sign Up
+                                </h5>
+                                    <form>
+                                        <div class="input-field">
+                                            <input type="text" id="name">
+                                            <label for="name" style="font-weight:bold;font-size: 10px;">FULL NAME</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="email" id="email" class="validate">
+                                            <label for="email" style="font-weight:bold;font-size: 10px;">EMAIL</label>
+                                            <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">PASSWORD</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">CONFIRM PASSWORD</label>
+                                        </div>
+                                        <div class="container" style="text-align: center;">
+                                            <a class="btn waves-effect waves-light btn-medium green">
+                                                <i class="fas fa-hand-point-right"></i> ENROLL NOW
+                                            </a>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                        <!-- End of Modal Enroll -->
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos inventore blanditiis eveniet dolore illum, labore molestias vitae veniam pariatur accusantium.</p>
+                        <br>
+                        <div class="card-action">
+                            <i class="heart fa fa-heart-o right"></i>
+                            <a href="#" class="green-text">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="imgs/comp2.png" style="filter: brightness(70%)" class="materialboxed" >
+                        <span class="card-title yellow-text accent-2 " style="font-weight:bold; text-align: left;">Computer Servicing</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light green btn modal-trigger" data-target="add1" href="#add1">
+                            <i class="material-icons">add</i>
+                        </a>
+
+                        <!-- Modal Enroll -->
+                        <div id="add1" class="modal">
+                            <div class="modal-content">
+                                <h5 style="text-align-last: center;font-weight: bolder;">
+                                    <i class="material-icons center-block medium">account_circle</i>
+                                    Sign Up
+                                </h5>
+                                    <form>
+                                        <div class="input-field">
+                                            <input type="text" id="name">
+                                            <label for="name" style="font-weight:bold;font-size: 10px;">FULL NAME</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="email" id="email" class="validate">
+                                            <label for="email" style="font-weight:bold;font-size: 10px;">EMAIL</label>
+                                            <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">PASSWORD</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">CONFIRM PASSWORD</label>
+                                        </div>
+                                        <div class="container" style="text-align: center;">
+                                            <a class="btn waves-effect waves-light btn-medium green">
+                                                <i class="fas fa-hand-point-right"></i> ENROLL NOW
+                                            </a>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                        <!-- End of Modal Enroll -->
+
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos inventore blanditiis eveniet dolore illum, labore molestias vitae veniam pariatur accusantium.</p>
+                        <br>
+                        <div class="card-action">
+                            <i class="heart fa fa-heart-o right"></i>
+                            <a href="#" class="green-text">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="imgs/et4.png" style="filter: brightness(70%)" class="materialboxed" >
+                        <span class="card-title yellow-text accent-2 " style="font-weight:bold; text-align: left;">Building Wiring</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light green btn modal-trigger" data-target="add1" href="#add1">
+                            <i class="material-icons">add</i>
+                        </a>
+
+                        <!-- Modal Enroll -->
+                        <div id="add1" class="modal">
+                            <div class="modal-content">
+                                <h5 style="text-align-last: center;font-weight: bolder;">
+                                    <i class="material-icons center-block medium">account_circle</i>
+                                    Sign Up
+                                </h5>
+                                    <form>
+                                        <div class="input-field">
+                                            <input type="text" id="name">
+                                            <label for="name" style="font-weight:bold;font-size: 10px;">FULL NAME</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="email" id="email" class="validate">
+                                            <label for="email" style="font-weight:bold;font-size: 10px;">EMAIL</label>
+                                            <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">PASSWORD</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">CONFIRM PASSWORD</label>
+                                        </div>
+                                        <div class="container" style="text-align: center;">
+                                            <a class="btn waves-effect waves-light btn-medium green">
+                                                <i class="fas fa-hand-point-right"></i> ENROLL NOW
+                                            </a>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                        <!-- End of Modal Enroll -->
+
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos inventore blanditiis eveniet dolore illum, labore molestias vitae veniam pariatur accusantium.</p>
+                        <br>
+                        <div class="card-action">
+                            <i class="heart fa fa-heart-o right"></i>
+                            <a href="#" class="green-text">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="imgs/prog3.png" style="filter: brightness(70%)" class="materialboxed" >
+                        <span class="card-title yellow-text accent-2 " style="font-weight:bold; text-align: left;">Programming</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light green btn modal-trigger" data-target="add1" href="#add1">
+                            <i class="material-icons">add</i>
+                        </a>
+
+                        <!-- Modal Enroll -->
+                        <div id="add1" class="modal">
+                            <div class="modal-content">
+                                <h5 style="text-align-last: center;font-weight: bolder;">
+                                    <i class="material-icons center-block medium">account_circle</i>
+                                    Sign Up
+                                </h5>
+                                    <form>
+                                        <div class="input-field">
+                                            <input type="text" id="name">
+                                            <label for="name" style="font-weight:bold;font-size: 10px;">FULL NAME</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="email" id="email" class="validate">
+                                            <label for="email" style="font-weight:bold;font-size: 10px;">EMAIL</label>
+                                            <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">PASSWORD</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="password" id="password">
+                                            <label for="password" style="font-weight:bold;font-size: 10px;">CONFIRM PASSWORD</label>
+                                        </div>
+                                        <div class="container" style="text-align: center;">
+                                            <a class="btn waves-effect waves-light btn-medium green">
+                                                <i class="fas fa-hand-point-right"></i> ENROLL NOW
+                                            </a>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                        <!-- End of Modal Enroll -->
+
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos inventore blanditiis eveniet dolore illum, labore molestias vitae veniam pariatur accusantium.</p>
+                        <br>
+                        <div class="card-action">
+                            <i class="heart fa fa-heart-o right"></i>
+                            <a href="#" class="green-text">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End of Course Offer -->
+
+
+
+
+    <section style="background-image: url(imgs/tech4.png); background-size:auto; padding-top:2%; padding-bottom: 0.5% ;padding-left: 5%;">
+        <!-- <div class="container"> -->
+                <div class="row">
+                    <div class="col s2 m6 l7">
+                        <div id="signup" class="card-panel">
+                            <h5 style="text-align-last: center;font-weight: bolder;">
+                                <i class="material-icons center-block medium">phone</i>
+                                Contact Us
+                            </h5>
+                        <form>
+                            <div class="input-field inline">
+                                <input type="text" id="name">
+                                <label for="name" style="font-weight:bold;font-size: 15px; color:white;">FULL NAME</label>
+                            </div>
+                            
+                            <div class="input-field inline right tabs-fixed-width">
+                                <input type="email" id="email" class="validate">
+                                <label for="email" style="font-weight:bold;font-size: 15px; color:white;">EMAIL</label>
+                                <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                            </div>
+                            
+                            <div class="input-field" style="font-weight:bold;font-size: 15px; color:white;">
+                                <select>
+                                    <option value="" disabled selected  style="color:white;" >SELECT COURSES</option>
+                                    <option value="1">Electronics</option>
+                                    <option value="2">Electrical</option>
+                                    <option value="3">Computer</option>
+                                </select>
+                                <label style="font-weight:bold;font-size: 15px; color:white;"> CHOICES</label>
+                            </div>
+
+                            <div>
+                                <textarea name="comments" id="comments" style="font-family:Century Gothic; color: white;">
+                                Shar your comments here!
+                                </textarea>
+                            </div>
+
+                            <div class="container" style="text-align: center;padding-top: 10px;">
+                                <a class="btn waves-effect waves-light btn-large green">
+                                    <i class="fas fa-hand-point-right"></i> SEND
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+
+                    <div class="col s2 m6 l5">
+                        <div id="signup" class="card-panel">
+                            <h5 style="text-align-last: center;font-weight: bolder;">
+                                <i class="material-icons center-block medium">account_circle</i>
+                                Sign Up
+                            </h5>
+                        <form>
+                            <div class="input-field black-text">
+                                <input type="text" id="name">
+                                <label for="name" style="font-weight:bold;font-size: 15px; color:white;">FULL NAME</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email" class="validate">
+                                <label for="email" style="font-weight:bold;font-size: 15px; color:white;">EMAIL</label>
+                                <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" id="password">
+                                <label for="password" style="font-weight:bold;font-size: 15px; color:white;">PASSWORD</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" id="password">
+                                <label for="password" style="font-weight:bold;font-size: 15px; color:white;">CONFIRM PASSWORD</label>
+                            </div>
+                            <div class="container" style="text-align: center;">
+                                <a class="btn waves-effect waves-light btn-large green">
+                                    <i class="fas fa-hand-point-right"></i> LOG IN
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+<!-- Start of Preloader -->
+    <div id="preloader" class="preloader-wrapper big active loader">
+        <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+<!-- End of Preloader -->
+
+<!-- Start of Footer -->
+<footer id="footer" class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <img src="imgs/logo2.png" style="width: 150x;height:50px;">
+                <p class="grey-text text-lighten-4">
+                128 E Rodriguez Jr. Ave <br>
+                Quezon City, Metro Manila <br>
+                Philippines <br>
+                08-5314470
+                </p>
+        </div>
+
+            <div class="col l3 s12">
+                <p class="white-text">_____________</p>
+                <ul>
+                    <li><a class="white-text" href="#home">Home</a></li>
+                    <li><a class="white-text" href="#aboutus">About Us</a></li>
+                    <li><a class="white-text" href="courses.html">Courses</a></li>
+                    <li><a class="white-text" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col l3 s12">
+                <p class="white-text" style="font-weight: bolder;">FOLLOW US</p>
+                <ul  class="menu">
+                    <li>
+                        <a class="white-text" href="#!">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="white-text" href="#!">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="white-text" href="#!">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="white-text" href="#!">
+                            <i class="fab fa-youtube"></i>
+                    </a>
+                    </li>
+
+                    <li>
+                        <a class="white-text" href="#!">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">2021 TeAchnology All Right Reserve
+            <i class="material-icons left">copyright</i>
+        </div>
+    </div>
+</footer>
+<!-- End of Footer -->
+
+
+<div style="height: autox;"></div>
+
+<!-- JQuery CDN from JquerySite Minified -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+
+
+<script>
+    $(".heart.fa").click(function() {
+    $(this).toggleClass("fa-heart fa-heart-o");
+});
+
+    $('.section').hide();
+
+    setTimeout(function() {
+    $(document).ready(function(){
+    // Show sections
+    $('.section').fadeIn();
+    // Hide loader
+    $('.loader').fadeOut();
+    $('.sidenav').sidenav({
+            edge:'right',
+        });
+
+    $('.scrollspy').scrollSpy();
+    $('.parallax').parallax();
+    $('.slider').slider({
+        height: 450,
+    });
+    $('.dropdown-trigger').dropdown({
+        coverTrigger: false,
+        hover: true,
+        alignment: 'center',
+    });
+
+    $('.materialboxed').materialbox();
+    $('.collapsible').collapsible();
+
+    //  Modal
+    $('.modal').modal();
+    // Floating Action Button
+    $('.fixed-action-btn').floatingActionButton();
+    // Select
+    $('select').formSelect();
+
+    $('.carousel').carousel({
+        duration: 100,
+        dist: 5,
+        shift: 10,
+        padding: 10,
+        numVisible: 5,
+        indicators:'true',
+        
+    });
+
+    $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+        });
+
+});
+}, 3000);
+</script>
+
+$(document).ready(function(){
+    
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+    });
+    // setInterval(function(){
+    //     $('.carousel').carousel('next');
+    // }, 2000);
+});
+
+
+</body>
+</html>

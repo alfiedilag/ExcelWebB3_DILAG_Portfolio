@@ -1,0 +1,246 @@
+
+.brand-logo{
+    padding-left: 50px !important;
+
+}
+
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 13px;
+    color: #ffffff;
+    display:block;
+    line-height: 30px;
+    padding: 14px 10px;
+    background-color: #054E0D;
+    text-align: center;
+}
+
+.dropdown-trigger{
+    width: 100px;
+    text-align: center;
+}
+
+
+#loginmodal {
+    align-items: center; 
+    background-color:rgb(255, 255, 255); 
+    height:auto;
+    justify-content: center; 
+    width: 25%;
+    line-height:0.20em; 
+    border-radius: 10%;
+    padding-bottom: 20px;
+    
+}
+
+
+
+#videoMessage2 { position: absolute; top: 0; left: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 70%;
+    line-height:2px;
+    font-size:1vw
+    } 
+
+#slide-out{
+    background-color:rgb(255, 255, 255);
+
+}
+
+
+.main-button{
+    background-color:gold;
+    border-radius: 50%;
+}
+
+video {
+    filter: brightness(45%);
+    width: 100%;
+    height: auto;
+
+}
+
+#preloader{
+    position:absolute;
+    top: 43% !important;
+    left: 47% !important;
+
+}
+
+.circle-clipper .circle {
+    width: 200%;
+    height: 100%;
+    border-width: 10px;
+    border-style: dotted;
+    border-color:whitesmoke !important;
+    border-bottom-color: transparent !important;
+    border-radius: 100%;
+
+}
+
+.card{
+    width: 100%;
+	height: 400px;
+	border-radius: 5px;
+	/* padding: 1rem;  */
+	background:rgba(255, 255, 255, 0.671);
+    position: relative;
+	/* display: flex;
+	align-items: flex-end; 
+	transition: 0.4s ease-out;  */
+	box-shadow: 0px 7px 10px rgba(black, 0.5);
+
+}
+
+
+.page-footer{
+    background-color: #054E0D;
+    height: auto;
+    display:-moz-stack;
+    font-size: 15px;
+}
+
+.footer-copyright{
+    background-color:rgba(255, 255, 255, 0.151)!important;
+    font-size: 12px;
+}
+
+
+.menu-wrapper {
+    position:fixed;
+    top: 13%;
+    left: 70%;
+    height: auto;
+    width: 100%;
+    
+}
+.menu{
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.menu li {
+    display: inline-block;
+    margin: 2px;
+}
+.menu li a{
+    text-decoration:none;
+    padding: 6px 12px;
+    display: block;
+}
+
+#homeparallax {
+    height: 450px;
+} 
+
+
+.heart {
+    font-size: 20px;
+    color:red;
+}
+
+#contactparallax {
+    height: 450px;
+} 
+
+
+#signup {
+    align-items: center;
+    background-color:rgba(1, 7, 1, 0.555);
+    height: 100%;
+    justify-content: center;
+    width:80%;
+    line-height:10%;
+    color: white;
+    border-radius: 5%;
+}
+
+
+
+
+
+/* 
+
+.form-dark .font-small {
+    font-size: 0.8rem; }
+  
+.form-dark [type="radio"] + label,
+.form-dark [type="checkbox"] + label {
+    font-size: 0.8rem; }
+  
+  .form-dark [type="checkbox"] + label:before {
+    top: 2px;
+    width: 15px;
+    height: 15px; }
+  
+  .form-dark .md-form label {
+    color: #fff; }
+  
+  .form-dark input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851; }
+  
+  .form-dark input[type=email]:focus:not([readonly]) + label {
+    color: #fff; }
+  
+  .form-dark input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851; }
+  
+  .form-dark input[type=password]:focus:not([readonly]) + label {
+    color: #fff; }
+  
+  .form-dark input[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    z-index: 0;
+    border: 1.5px solid #fff;
+    border-radius: 1px;
+    margin-top: 2px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+  
+  .form-dark input[type="checkbox"]:checked + label:before {
+    top: -4px;
+    left: -3px;
+    width: 12px;
+    height: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent #00c851 #00c851 transparent;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%; }
+  
+  .form-dark .modal-header {
+      border-bottom: none;
+  }
+        
+  WIN MDB PRO
+  
+  Join the competition, create a snippet and get a DISCOUNT or MDB PRO package for FREE
+  
+  Introduction
+  Simple modal login
+  Simple modal register
+  Simple modal subscription
+  Simple modal contact
+  Cascading modal login / register
+  Modal with avatar
+  Subscription modal with header
+  Elagant modal login
+  Dark modal register
+  Get useful tips & free re */
